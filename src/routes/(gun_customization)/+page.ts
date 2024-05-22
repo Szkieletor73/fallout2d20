@@ -1,8 +1,10 @@
 import type { PageLoad } from "./$types";
 import weapons from "$lib/assets/item-data/guns.json";
 import mods from "$lib/assets/item-data/mods.json";
+import qualities from "$lib/assets/item-data/qualities.json";
+import effects from "$lib/assets/item-data/effects.json";
 import type { SelectOption } from "$lib/interfaces";
-import { WeaponType, type Weapon, type WeaponMod } from "./interfaces";
+import { WeaponType, type DamageEffect, type Weapon, type WeaponMod, type WeaponQuality } from "./interfaces";
 
 function parseWeaponOptions(input: Array<Weapon>): Array<SelectOption> {
     const output: Array<SelectOption> = []
@@ -47,6 +49,11 @@ export const load: PageLoad = () => {
     return {
         weaponOptions: parseWeaponOptions(weapons as unknown as Array<Weapon>),
         modOptions: parseModOptions(mods as unknown as Array<WeaponMod>),
-        itemData: { weapons: weapons as unknown as Array<Weapon>, mods: mods as unknown as Array<WeaponMod> }
+        itemData: {
+            weapons: weapons as unknown as Array<Weapon>,
+            mods: mods as unknown as Array<WeaponMod>,
+            qualities: qualities as unknown as Array<WeaponQuality>,
+            effects: effects as unknown as Array<DamageEffect>
+        }
     };
 };

@@ -18,7 +18,7 @@ export enum GunRange {
     C,
     M,
     L,
-    E
+    X
 }
 
 export enum WeaponModSlot {
@@ -57,11 +57,11 @@ export interface Weapon {
     ammo: string,
     type: WeaponType,
     damageRating: number,
-    damageEffects: Array<DamageEffect>,
+    damageEffects: Array<string>,
     damageType: DamageType,
-    firerate: number | null,
-    range: GunRange | null,
-    qualities: Array<WeaponQuality>,
+    firerate: number,
+    range: GunRange,
+    qualities: Array<string>,
     weight: number,
     cost: number,
     rarity: number,
@@ -91,9 +91,13 @@ export interface WeaponMod {
     weightMod?: number,
     costMod?: number,
     ammoSet?: string,
-    perks?: Array<Perk>,
+    perks?: Array<string>,
     qualities?: {
-        added?: Array<WeaponQuality>,
-        removed?: Array<WeaponQuality>
+        added?: Array<string>,
+        removed?: Array<string>
+    }
+    effects?: {
+        added?: Array<string>,
+        removed?: Array<string>
     }
 }

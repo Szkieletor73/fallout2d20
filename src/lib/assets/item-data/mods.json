@@ -29,9 +29,7 @@
         "firerateMod": 1,
         "weightMod": 2,
         "costMod": 35,
-        "perks": [
-            "gunnut2"
-        ]
+        "perks": ["gunnut2"]
     },
     {
         "id": "calibrated",
@@ -40,7 +38,7 @@
         "type": "Small",
         "slot": "Receiver",
         "costMod": 25,
-        "qualities": {
+        "effects": {
             "added": ["vicious"] 
         }
     },
@@ -54,11 +52,12 @@
         "firerateMod": 2,
         "weightMod": 1,
         "costMod": 30,
-        "perks": [
-            "gunnut1"
-        ],
+        "perks": ["gunnut1"],
         "qualities": {
-            "added": ["burst", "innaccurate"]
+            "added": ["inaccurate"]
+        },
+        "effects": {
+            "added": ["burst"]
         }
     },
     {
@@ -69,9 +68,7 @@
         "slot": "Receiver",
         "firerateMod": 1,
         "costMod": 20,
-        "perks": [
-            "gunnut2"
-        ]
+        "perks": ["gunnut2"]
     },
     {
         "id": ".38",
@@ -83,9 +80,7 @@
         "weightMod": 3,
         "costMod": 20,
         "ammoSet": ".38",
-        "perks": [
-            "gunnut4"
-        ]
+        "perks": ["gunnut4"]
     },
     {
         "id": ".308",
@@ -97,9 +92,7 @@
         "weightMod": 4,
         "costMod": 40,
         "ammoSet": ".308",
-        "perks": [
-            "gunnut4"
-        ]
+        "perks": ["gunnut4"]
     },
     {
         "id": ".45",
@@ -112,9 +105,7 @@
         "weightMod": 2,
         "costMod": 19,
         "ammoSet": ".45",
-        "perks": [
-            "gunnut2"
-        ]
+        "perks": ["gunnut2"]
     },
     {
         "id": ".50",
@@ -126,10 +117,8 @@
         "weightMod": 4,
         "costMod": 30,
         "ammoSet": ".50",
-        "perks": [
-            "gunnut4"
-        ],
-        "qualities": {
+        "perks": ["gunnut4"],
+        "effects": {
             "added": ["vicious"]
         }
     },
@@ -143,8 +132,333 @@
         "rangeMod": -1,
         "weightMod": 2,
         "costMod": 75,
-        "perks": [
-            "gunnut2"
-        ]
+        "perks": ["gunnut2"]
+    },
+    {
+        "id": "snub",
+        "name": "Snubnose Barrel",
+        "namePrefix": "Snub-noses",
+        "type": "Small",
+        "slot": "Barrel",
+        "weightMod": -1,
+        "qualities": {
+            "added": ["inaccurate"]
+        }
+    },
+    {
+        "id": "bull",
+        "name": "Bull Barrel",
+        "namePrefix": "Bull Barrel",
+        "type": "Small",
+        "slot": "Barrel",
+        "costMod": 10,
+        "perks": ["gunnut3"],
+        "qualities": {
+            "added": ["reliable"]
+        }
+    },
+    {
+        "id": "long",
+        "name": "Long Barrel",
+        "namePrefix": "Long",
+        "type": "Small",
+        "slot": "Barrel",
+        "rangeMod": 1,
+        "weightMod": 1,
+        "costMod": 20,
+        "perks": ["gunnut1"]
+    },
+    {
+        "id": "ported",
+        "name": "Ported Barrel",
+        "namePrefix": "Ported",
+        "type": "Small",
+        "slot": "Barrel",
+        "firerateMod": 1,
+        "rangeMod": 1,
+        "weightMod": 1,
+        "costMod": 35,
+        "perks": ["gunnut4"]
+    },
+    {
+        "id": "vented",
+        "name": "Vented Barrel",
+        "namePrefix": "Vented",
+        "type": "Small",
+        "slot": "Barrel",
+        "firerateMod": 1,
+        "rangeMod": 1,
+        "weightMod": 1,
+        "costMod": 36,
+        "perks": ["gunnut4"],
+        "qualities": {
+            "added": ["reliable"]
+        }
+    },
+    {
+        "id": "sawedoff",
+        "name": "Sawed-Off Barrel",
+        "namePrefix": "Sawed Off",
+        "type": "Small",
+        "slot": "Barrel",
+        "weightMod": -2,
+        "costMod": 3,
+        "qualities": {
+            "added": ["closequarters"],
+            "removed": ["twohanded"]
+        }
+    },
+    {
+        "id": "shielded",
+        "name": "Shielded Barrel",
+        "namePrefix": "Shielded",
+        "type": "Small",
+        "slot": "Barrel",
+        "damageMod": 1,
+        "costMod": 37,
+        "perks": ["gunnut3", "repair"]
+    },
+    {
+        "id": "finned",
+        "name": "Finned Barrel",
+        "namePrefix": "Finned",
+        "type": "Small",
+        "slot": "Barrel",
+        "damageMod": 1,
+        "rangeMod": 1,
+        "weightMod": 2,
+        "costMod": 15,
+        "perks": ["gunnut2"]
+    },
+    {
+        "id": "large",
+        "name": "Large Magazine",
+        "namePrefix": "High Capacity",
+        "type": "Small",
+        "slot": "Magazine",
+        "firerateMod": 1,
+        "weightMod": 1,
+        "costMod": -3,
+        "perks": ["gunnut2"],
+        "qualities": {
+            "added": ["unreliable"]
+        }
+    },
+    {
+        "id": "quickeject",
+        "name": "Quick-Eject Mag",
+        "namePrefix": "Quick",
+        "type": "Small",
+        "slot": "Magazine",
+        "costMod": 8,
+        "perks": ["gunnut1"],
+        "qualities": {
+            "added": ["reliable"]
+        }
+    },
+    {
+        "id": "largequickeject",
+        "name": "Large Quick-Eject Mag",
+        "namePrefix": "Quick High Capacity",
+        "type": "Small",
+        "slot": "Magazine",
+        "firerateMod": 1,
+        "weightMod": 1,
+        "costMod": 23,
+        "perks": ["gunnut2"]
+    },
+    {
+        "id": "comfort",
+        "name": "Comfort Grip",
+        "namePrefix": "Comfort",
+        "type": "Small",
+        "slot": "Grip",
+        "costMod": 6,
+        "qualities": {
+            "removed": ["inaccurate"]
+        }
+    },
+    {
+        "id": "sharpshooters",
+        "name": "Sharpshooter's Grip",
+        "namePrefix": "Sharpshooter's",
+        "type": "Small",
+        "slot": "Grip",
+        "costMod": 10,
+        "perks": ["gunnut1"],
+        "qualities": {
+            "addded": ["piercing1"],
+            "removed": ["inaccurate"]
+        }
+    },
+    {
+        "id": "full",
+        "name": "Full Stock",
+        "type": "Small",
+        "slot": "Stock",
+        "weightMod": 1,
+        "costMod": 10,
+        "qualities": {
+            "added": ["twohanded"],
+            "removed": ["inaccurate"]
+        }
+    },
+    {
+        "id": "marksmans",
+        "name": "Marksman's Stock",
+        "namePrefix": "Marksman's",
+        "type": "Small",
+        "slot": "Stock",
+        "weightMod": 2,
+        "costMod": 20,
+        "perks": ["gunnut2"],
+        "qualities": {
+            "added": ["twohanded", "accurate"],
+            "removed": ["inaccurate"]
+        }
+    },
+    {
+        "id": "recoilcompensating",
+        "name": "Recoil Compensating Stock",
+        "namePrefix": "Recoil Compensated",
+        "type": "Small",
+        "slot": "Stock",
+        "firerateMod": 1,
+        "weightMod": 2,
+        "costMod": 3,
+        "perks": ["gunnut3"],
+        "qualities": {
+            "added": ["twohanded"],
+            "removed": ["inaccurate"]
+        }
+    },
+    {
+        "id": "reflex",
+        "name": "Reflex Sight",
+        "namePrefix": "Tactical",
+        "type": "Small",
+        "slot": "Sights",
+        "costMod": 14,
+        "qualities": {
+            "added": ["reflex"]
+        }
+    },
+    {
+        "id": "shortscope",
+        "name": "Short Scope",
+        "namePrefix": "Scoped",
+        "type": "Small",
+        "slot": "Sights",
+        "weightMod": 1,
+        "costMod": 11,
+        "qualities": {
+            "added": ["accurate"]
+        }
+    },
+    {
+        "id": "longscope",
+        "name": "Long Scope",
+        "namePrefix": "Scoped",
+        "type": "Small",
+        "slot": "Sights",
+        "rangeMod": 1,
+        "weightMod": 1,
+        "costMod": 29,
+        "perks": ["science2"],
+        "qualities": {
+            "added": ["accurate"]
+        }
+    },
+    {
+        "id": "shortnightvisionscope",
+        "name": "Short Night Vision Scope",
+        "namePrefix": "Night Vision",
+        "type": "Small",
+        "slot": "Sights",
+        "weightMod": 1,
+        "costMod": 38,
+        "perks": ["science2"],
+        "qualities": {
+            "added": ["accurate", "nightvision"]
+        }
+    },
+    {
+        "id": "longnightvisionscope",
+        "name": "Long Night Vision Scope",
+        "namePrefix": "Night Vision",
+        "type": "Small",
+        "slot": "Sights",
+        "rangeMod": 1,
+        "weightMod": 1,
+        "costMod": 50,
+        "perks": ["science3"],
+        "qualities": {
+            "added": ["accurate", "nightvision"]
+        }
+    },
+    {
+        "id": "reconscope",
+        "name": "Recon Scope",
+        "namePrefix": "Recon",
+        "type": "Small",
+        "slot": "Sights",
+        "weightMod": 1,
+        "costMod": 59,
+        "perks": ["science3"],
+        "qualities": {
+            "added": ["accurate", "recon"]
+        }
+    },
+    {
+        "id": "bayonet",
+        "name": "Bayonet",
+        "namePrefix": "Bayoneted",
+        "type": "Small",
+        "slot": "Muzzle",
+        "weightMod": 2,
+        "costMod": 10,
+        "qualities": {
+            "added": ["bayonet"]
+        }
+    },
+    {
+        "id": "compensator",
+        "name": "Compensator",
+        "namePrefix": "Compensated",
+        "type": "Small",
+        "slot": "Muzzle",
+        "weightMod": 1,
+        "costMod": 15,
+        "perks": ["gunnut1"],
+        "qualities": {
+            "removed": ["inaccurate"]
+        }
+    },
+    {
+        "id": "muzzlebreak",
+        "name": "Muzzle Break",
+        "namePrefix": "Muzzled",
+        "type": "Small",
+        "slot": "Muzzle",
+        "firerateMod": 1,
+        "weightMod": 1,
+        "costMod": 30,
+        "perks": ["gunnut1"],
+        "qualities": {
+            "removed": ["inaccurate"]
+        }
+    },
+    {
+        "id": "suppressor",
+        "name": "Suppressor",
+        "namePrefix": "Suppressed",
+        "type": "Small",
+        "slot": "Muzzle",
+        "weightMod": 2,
+        "costMod": 45,
+        "perks": ["gunnut2"],
+        "qualities": {
+            "added": ["suppressed"]
+        }
     }
 ]

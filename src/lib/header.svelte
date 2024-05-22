@@ -5,7 +5,7 @@
 <header class="header-container">
     <img class="logo" alt="Fallout2D20 Utils" src="{logo}">
     <div class="logo-label">
-        Fallout 2D20 Utils
+        Fallout 2d20 Utils
     </div>
     
 </header>

@@ -1,0 +1,102 @@
+[
+    {
+        "id": "burst",
+        "name": "Burst",
+        "description": "The attack may hit one additional target within Close range of the primary target for each Effect rolled. Each additional target costs 1 additional shot from the weapon."
+    },
+    {
+        "id": "breaking",
+        "name": "Breaking",
+        "description": "For each Effect rolled, reduce the number of Cover Dice a piece of cover provides by 1, permanently. If the target is not in cover, instead reduce the damage resistance on the location struck by 1, according to the damage type of the weapon (i.e., physical damage reduces Physical damage resistance, energy damage reduces Energy damage resistance)."
+    },
+    {
+        "id": "persistent",
+        "name": "Persistent",
+        "description": "If one or more Effects are rolled, the target suffers the weapon's damage again at the end of their next and subsequent turns, for a number of rounds equal to the number of Effects rolled. A character may spend a major action to make a test to stop Persistent damage early; the difficulty is equal to the number of Effects rolled, and the attribute + skill used are chosen by the GM. Some Persistent weapons may inflict a different type of damage to the weapon, and where this is the case, it is noted in brackets; for example, Persistent (Poison)."
+    },
+    {
+        "id": "persistentenergy",
+        "name": "Persistent (Energy)",
+        "description": "If one or more Effects are rolled, the target suffers the weapon's damage again at the end of their next and subsequent turns, for a number of rounds equal to the number of Effects rolled. A character may spend a major action to make a test to stop Persistent damage early; the difficulty is equal to the number of Effects rolled, and the attribute + skill used are chosen by the GM. Some Persistent weapons may inflict a different type of damage to the weapon, and where this is the case, it is noted in brackets; for example, Persistent (Poison)."
+    },
+    {
+        "id": "persistentpoison",
+        "name": "Persistent (Poison)",
+        "description": "If one or more Effects are rolled, the target suffers the weapon's damage again at the end of their next and subsequent turns, for a number of rounds equal to the number of Effects rolled. A character may spend a major action to make a test to stop Persistent damage early; the difficulty is equal to the number of Effects rolled, and the attribute + skill used are chosen by the GM. Some Persistent weapons may inflict a different type of damage to the weapon, and where this is the case, it is noted in brackets; for example, Persistent (Poison)."
+    },
+    {
+        "id": "persistentphysical",
+        "name": "Persistent (Physical)",
+        "description": "If one or more Effects are rolled, the target suffers the weapon's damage again at the end of their next and subsequent turns, for a number of rounds equal to the number of Effects rolled. A character may spend a major action to make a test to stop Persistent damage early; the difficulty is equal to the number of Effects rolled, and the attribute + skill used are chosen by the GM. Some Persistent weapons may inflict a different type of damage to the weapon, and where this is the case, it is noted in brackets; for example, Persistent (Poison)."
+    },
+    {
+        "id": "piercing1",
+        "name": "Piercing 1",
+        "description": "Ignore X points of the target's damage reduction for each Effect rolled, where X is the rating of this damage effect."
+    },
+    {
+        "id": "piercing2",
+        "name": "Piercing 2",
+        "description": "Ignore X points of the target's damage reduction for each Effect rolled, where X is the rating of this damage effect."
+    },
+    {
+        "id": "piercing3",
+        "name": "Piercing 3",
+        "description": "Ignore X points of the target's damage reduction for each Effect rolled, where X is the rating of this damage effect."
+    },
+    {
+        "id": "piercing4",
+        "name": "Piercing 4",
+        "description": "Ignore X points of the target's damage reduction for each Effect rolled, where X is the rating of this damage effect."
+    },
+    {
+        "id": "piercing5",
+        "name": "Piercing 5",
+        "description": "Ignore X points of the target's damage reduction for each Effect rolled, where X is the rating of this damage effect."
+    },
+    {
+        "id": "piercing6",
+        "name": "Piercing 6",
+        "description": "Ignore X points of the target's damage reduction for each Effect rolled, where X is the rating of this damage effect."
+    },
+    {
+        "id": "piercing7",
+        "name": "Piercing 7",
+        "description": "Ignore X points of the target's damage reduction for each Effect rolled, where X is the rating of this damage effect."
+    },
+    {
+        "id": "piercing8",
+        "name": "Piercing 8",
+        "description": "Ignore X points of the target's damage reduction for each Effect rolled, where X is the rating of this damage effect."
+    },
+    {
+        "id": "piercing9",
+        "name": "Piercing 9",
+        "description": "Ignore X points of the target's damage reduction for each Effect rolled, where X is the rating of this damage effect."
+    },
+    {
+        "id": "piercing10",
+        "name": "Piercing 10",
+        "description": "Ignore X points of the target's damage reduction for each Effect rolled, where X is the rating of this damage effect."
+    },
+    {
+        "id": "radioactive",
+        "name": "Radioactive",
+        "description": "For every Effect rolled, the target also suffers 1 point of Radiation damage. This Radiation damage is totaled and applied separately, after a character has suffered the normal damage from the attack."
+    },
+    {
+        "id": "spread",
+        "name": "Spread",
+        "description": "For each Effect rolled, your attack inflicts one additional hit on the target. Each additional hit inflicts half the rolled damage (round down) and hits a random location even if a specific location was targeted for the initial attack."
+    },
+    {
+        "id": "stun",
+        "name": "Stun",
+        "description": "If one or more Effects are rolled, the target loses their normal actions in their next turn. A stunned character or creature may still spend AP to take additional actions as normal."
+    },
+    {
+        "id": "vicious",
+        "name": "Vicious",
+        "description": "The attack inflicts +1 damage for each Effect rolled."
+    }
+]

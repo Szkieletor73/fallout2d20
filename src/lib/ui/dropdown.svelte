@@ -7,7 +7,7 @@
 </script>
 
 <div>
-    <select name="{name}" bind:value={selected}>
+    <select name="{name}" on:change bind:value={selected}>
         {#each options as option}
             <option
                 value={option.value}
