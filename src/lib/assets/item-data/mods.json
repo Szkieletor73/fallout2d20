@@ -1,0 +1,150 @@
+[
+    {
+        "id": "hardened",
+        "name": "Hardened Receiver",
+        "namePrefix": "Hardened",
+        "type": "Small",
+        "slot": "Receiver",
+        "damageMod": 1,
+        "costMod": 20
+    },
+    {
+        "id": "powerful",
+        "name": "Powerful Receiver",
+        "namePrefix": "Powerful",
+        "type": "Small",
+        "slot": "Receiver",
+        "damageMod": 2,
+        "weightMod": 1,
+        "costMod": 25,
+        "perks": ["gunnut1"]
+    },
+    {
+        "id": "advanced",
+        "name": "Advanced Receiver",
+        "namePrefix": "Advanced",
+        "type": "Small",
+        "slot": "Receiver",
+        "damageMod": 3,
+        "firerateMod": 1,
+        "weightMod": 2,
+        "costMod": 35,
+        "perks": [
+            "gunnut2"
+        ]
+    },
+    {
+        "id": "calibrated",
+        "name": "Calibrated Receiver",
+        "namePrefix": "Calibrated",
+        "type": "Small",
+        "slot": "Receiver",
+        "costMod": 25,
+        "qualities": {
+            "added": ["vicious"] 
+        }
+    },
+    {
+        "id": "automatic",
+        "name": "Automatic Receiver",
+        "namePrefix": "Auto",
+        "type": "Small",
+        "slot": "Receiver",
+        "damageMod": -1,
+        "firerateMod": 2,
+        "weightMod": 1,
+        "costMod": 30,
+        "perks": [
+            "gunnut1"
+        ],
+        "qualities": {
+            "added": ["burst", "innaccurate"]
+        }
+    },
+    {
+        "id": "hairtrigger",
+        "name": "Hair Trigger Receiver",
+        "namePrefix": "Hair Trigger",
+        "type": "Small",
+        "slot": "Receiver",
+        "firerateMod": 1,
+        "costMod": 20,
+        "perks": [
+            "gunnut2"
+        ]
+    },
+    {
+        "id": ".38",
+        "name": ".38 Receiver",
+        "namePrefix": ".38",
+        "type": "Small",
+        "slot": "Receiver",
+        "damageSet": 4,
+        "weightMod": 3,
+        "costMod": 20,
+        "ammoSet": ".38",
+        "perks": [
+            "gunnut4"
+        ]
+    },
+    {
+        "id": ".308",
+        "name": ".308 Receiver",
+        "namePrefix": ".308",
+        "type": "Small",
+        "slot": "Receiver",
+        "damageSet": 7,
+        "weightMod": 4,
+        "costMod": 40,
+        "ammoSet": ".308",
+        "perks": [
+            "gunnut4"
+        ]
+    },
+    {
+        "id": ".45",
+        "name": ".45 Receiver",
+        "namePrefix": ".45",
+        "type": "Small",
+        "slot": "Receiver",
+        "damageSet": 4,
+        "firerateMod": 1,
+        "weightMod": 2,
+        "costMod": 19,
+        "ammoSet": ".45",
+        "perks": [
+            "gunnut2"
+        ]
+    },
+    {
+        "id": ".50",
+        "name": ".50 Receiver",
+        "namePrefix": ".50",
+        "type": "Small",
+        "slot": "Receiver",
+        "damageSet": 8,
+        "weightMod": 4,
+        "costMod": 30,
+        "ammoSet": ".50",
+        "perks": [
+            "gunnut4"
+        ],
+        "qualities": {
+            "added": ["vicious"]
+        }
+    },
+    {
+        "id": "autopiston",
+        "name": "Automatic Piston",
+        "namePrefix": "Automatic",
+        "type": "Small",
+        "slot": "Receiver",
+        "firerateMod": 2,
+        "rangeMod": -1,
+        "weightMod": 2,
+        "costMod": 75,
+        "perks": [
+            "gunnut2"
+        ]
+    }
+]

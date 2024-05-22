@@ -1,0 +1,46 @@
+[
+    {
+        "id": "44Pistol",
+        "name": ".44 Pistol",
+        "ammo": ".44",
+        "type": "small",
+        "damageRating": 6,
+        "damageEffects": ["vicious"],
+        "damageType": "physical",
+        "firerate": "1",
+        "range": 0,
+        "qualities": ["closequarters"],
+        "weight": 4,
+        "cost": 99,
+        "rarity": 2,
+        "compatibleMods": {
+            "Receiver": ["hardened", "powerful", "advanced"],
+            "Barrel": ["snubnose", "bull"],
+            "Grip": ["comfort"],
+            "Sights": ["scopeshort", "reflex", "scoperecon"]
+        }
+    },
+    {
+        "id": "10mmPistol",
+        "name": "10mm Pistol",
+        "ammo": "10mm",
+        "type": "small",
+        "damageRating": 4,
+        "damageEffects": [],
+        "damageType": "physical",
+        "firerate": 2,
+        "range": 0,
+        "qualities": ["closequarters", "reliable"],
+        "weight": 4,
+        "cost": 50,
+        "rarity": 1,
+        "compatibleMods": {
+            "Receiver": ["hardened", "powerful", "advanced", "calibrated", "automatic", "hairtrigger"],
+            "Barrel": ["long", "ported"],
+            "Grip": ["comfort", "sharpshooter"],
+            "Magazine": ["large", "quickeject", "largequick"],
+            "Sights": ["reflex", "scoperecon"],
+            "Muzzle": ["compensator", "suppressor"]
+        }
+    }
+]

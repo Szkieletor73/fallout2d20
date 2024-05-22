@@ -1,0 +1,100 @@
+/* Global styles and variables */
+* {
+    box-sizing: border-box;
+    --header-height: 48px;
+    --footer-height: 120px;
+
+    --font-size-h1: 2.986rem;
+    --font-size-h2: 2.488rem;
+    --font-size-h3: 2.074rem;
+    --font-size-h4: 1.728rem;
+    --font-size-xxl: 1.728rem;
+    --font-size-h5: 1.44rem;
+    --font-size-xl: 1.44rem;
+    --font-size-h6: 1.2rem;
+    --font-size-l: 1.2rem;
+    --font-size-m: 1rem;
+    --font-size-s: 0.833rem;
+    --font-size-xs: 0.694rem;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.35;
+
+    background-color: var(--background);
+    color: var(--on-background);
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+/* Typography */
+h1 {
+    font-size: var(--font-size-h1);
+    line-height: 1.35;
+    margin: 0px;
+}
+
+h2 {
+    font-size: var(--font-size-h2);
+    line-height: 1.35;
+    margin: 0px;
+}
+
+h3 {
+    font-size: var(--font-size-h3);
+    line-height: 1.35;
+    margin: 0px;
+}
+
+h4,
+.font-xxl {
+    font-size: var(--font-size-h4);
+    line-height: 1.35;
+    margin: 0px;
+}
+
+h5,
+.font-xl {
+    font-size: var(--font-size-xl);
+    line-height: 1.35;
+    margin: 0px;
+}
+
+h6,
+.font-l {
+    font-size: var(--font-size-l);
+    line-height: 1.35;
+    margin: 0px;
+}
+
+p,
+.font-m {
+    font-size: var(--font-size-m);
+    margin: 0px;
+}
+
+small,
+.font-s {
+    font-size: var(--font-size-s);
+    line-height: 1.35;
+    margin: 0px;
+}
+
+.font-xs {
+    font-size: var(--font-size-xs);
+    line-height: 1.35;
+    margin: 0px;
+}

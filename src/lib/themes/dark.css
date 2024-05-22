@@ -1,0 +1,73 @@
+.dark {
+    /* Brand colors */
+
+    /* Primary brand color, for accenting UI. */
+    --primary: #4996f1;
+    --on-primary: #070e16;
+    --border-primary: #2270cf;
+
+    --secondary: #fff065;
+    --on-secondary: #1a180a;
+    --border-secondary: #e0cf31;
+
+
+    /* Surfaces */
+
+    /* Application background. Also used for indented surfaces inside surface. */
+    --background: #363a46;
+    --on-background: #eee;
+    --border-background: rgb(9, 9, 10);
+
+    /* Surfaces for content. Most content will be placed on surfaces. */
+    --surface: #525660;
+    --on-surface: #fff;
+    --border-surface: #373941;
+
+    /* Raised element */
+    --element: #63656b;
+    --on-element: #fff;
+    --border-element: #525050;
+
+
+    /* Status */
+    --info: #468cce;
+    --on-info: #f4faff;
+    --border-info: #a8d3ff;
+
+    --warn: #ffc219;
+    --on-warn: #573e03;
+    --border-warn: #5a481d;
+
+    --error: #fd3e3e;
+    --on-error: #350d0d;
+    --border-error: #471818;
+
+    --success: #89d848;
+    --on-success: #263b15;
+    --border-success: #1b2b0f;
+
+
+    /* Actions */
+    --close: #ca0c0c;
+    --on-close: #f7dada;
+    --border-close: #f7dada;
+
+    --delete: #da3030;
+    --on-delete: #fdeeee;
+    --border-delete: #fdeeee;
+
+
+    /* Highlights */
+    /* High - used for obvious highlighting, selection states, etc. */
+    --highlight-high: rgba(255, 255, 255, 0.45);
+
+    /* Low - used for hovers, on-click states, and subtle highlights */
+    --highlight-low: rgba(255, 255, 255, 0.15);
+
+
+    /* Overlays */
+    /* Shade behind modals */
+    --shade: rgba(0, 0, 0, 0.6);
+    --on-shade: #eee;
+
+}
