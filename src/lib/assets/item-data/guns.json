@@ -189,7 +189,7 @@
         "damageType": "Physical",
         "firerate": 2,
         "range": 0,
-        "qualities": ["twohanded, inaccurate"],
+        "qualities": ["twohanded", "inaccurate"],
         "weight": 11,
         "cost": 87,
         "rarity": 2,
